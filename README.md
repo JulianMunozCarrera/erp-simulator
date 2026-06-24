@@ -1,11 +1,11 @@
 # ERP Simulator
 
-A small Python project that simulates EEG event-related potentials (ERPs) to show why
+A small Python project that simulates EEG event related potentials (ERPs) to show why
 researchers average across many trials to pull a brain signal out of noise.
 
-I built this while learning Python, and partly to better understand the kind of data
-worked with in the Linguistic Neurodiversity Lab at Carleton, where I'm helping out on
-an EEG study. The data here is completely synthetic — I generate it myself — so it's a
+I built this while continuing to learn Python, and partly to better understand the kind of data
+worked with in the Linguistic Neurodiversity Lab at Carleton, where I'm helping out in
+EEG related research/work. The data here is completely synthetic, I generate it myself, so it's a
 teaching tool, not real research data.
 
 ## The idea

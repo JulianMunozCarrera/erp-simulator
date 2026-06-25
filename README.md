@@ -20,12 +20,12 @@ This project fakes that whole process so you can see it happen.
 
 Two specific responses are simulated:
 
-- **N400** — a negative dip that, in real EEG, appears around 400 ms after a word that
+- **N400** — a negative (N) dip that, in real EEG, appears around 400ms after a word that
   doesn't fit the meaning of a sentence (e.g. "I take my coffee with cream and socks").
-- **P600** — a positive bump that appears around 600 ms after a grammatical error
+- **P600** — a positive (P) bump that appears around 600 ms after a grammatical error
   (e.g. "The cat eat the food").
 
-The names come from the direction (N = negative, P = positive) and roughly when they
+The names therefore come from the direction (N = negative, P = positive) and roughly when they
 happen in milliseconds.
 
 ## What the code does
@@ -50,9 +50,9 @@ Close each plot window that pops up to let the script continue.
 
 ## What I took away from it
 
-The main thing this made concrete for me was *why* trial averaging works — that the
-signal is consistent across trials and the noise isn't, so averaging keeps one and kills
-the other. Seeing the single noisy trial next to the clean 50-trial average made that
+The main thing this made concrete for me was *why* trial averaging works, that the
+signal is consistent across trials and the noise isn't, hence averaging keeps one and kills
+the other. Seeing the single noisy trial next to the clean 50 trial average made that
 click in a way reading about it didn't.
 
 ## Built with
